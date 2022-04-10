@@ -91,13 +91,13 @@ while True:
         
         # ------------------------------------Email photos to user----------------------------------------------
         
-        smtpUser= "iotprojectgroupe@gmail.com"
-        smtpPass="iotproject420"
+        smtpUser= ""
+        smtpPass=""
 
 
 
         #Destination
-        toAdd= "iotprojectgroupe@gmail.com"
+        toAdd= ""
         fromAdd=smtpUser
         f_time=datetime.now().strftime("%a %d %b @ %H:%M")
         subject="Smart Doorbell Photos from: "+f_time
@@ -151,8 +151,8 @@ while True:
 
         print("Email Delivered...")
 # ------------------------------------Text via twilio----------------------------------------------
-        account_sid = "AC76ae8ba9c6602acfd5ec3f1782a8b9ca"
-        auth_token="f75195a0cf4fb53aaf5f389a96d2b8c8"
+        account_sid = ""
+        auth_token=""
 
         client=Client (account_sid,auth_token)
 
